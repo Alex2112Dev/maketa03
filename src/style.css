@@ -142,6 +142,7 @@ font-family: 'Montserrat', sans-serif;
         grid-template-rows: 1fr;
         max-width: 800px;
         min-width: 700px;
+        align-content: space-between;
     }
 
     .card_img img {
@@ -151,6 +152,8 @@ font-family: 'Montserrat', sans-serif;
 
     .card_info {
         grid-column: 2/3;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .card_img img:nth-child(2) {
@@ -159,7 +162,7 @@ font-family: 'Montserrat', sans-serif;
 
     .card_img img:nth-child(1) {
         display: none;
-        
+
     }
 }
 
